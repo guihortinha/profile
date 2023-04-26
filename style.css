@@ -1,0 +1,85 @@
+img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+html,body {
+  min-height: 100vh
+}
+
+body {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,124,1) 100%);
+  font-family: 'Sigmar', cursive;
+  color: #212A3E;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sigmar';
+  color: #111111;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h2,h3 {
+  font-family: 'Sigmar';
+  color: #111111;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+a:hover {
+  transition: 200ms;
+  text-decoration: underline;
+  color: #283739;
+}
+
+.card {
+  background: #F9F7F7;
+  border: #283739 solid 6px;
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 10px;
+  box-shadow: 3px 5px 2px;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+  overflow: auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
